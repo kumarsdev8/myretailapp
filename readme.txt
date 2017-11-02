@@ -1,6 +1,8 @@
 .extract  the  files
 .install cansandre on  pc
-.create a keyspace  on  casendra  as name  "myretailapp"
-.import the  project in Intjeli
+. Execute  a  Query to  creata Keysapce "CREATE KEYSPACE  myretailapp WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 3};"
+ Execute  "USE myretailapp"
+  Create table "CREATE TABLE products(id text PRIMARY KEY, name text, currency_price text, currency_code text );"
+.import the  project any of the  IDE
 .Run the  application 
 .open  browers  and  paste link "http://localhost:8080/swagger-ui.html#/basic-error-controller"
